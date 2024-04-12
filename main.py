@@ -2,6 +2,13 @@ import streamlit as st
 import pandas as pd
 
 def main():
+
+    st.set_page_config(
+       page_title="PDEU Project Portal",
+       page_icon="https://media.licdn.com/dms/image/C4E0BAQHHjaeKYhCfPw/company-logo_200_200/0/1630627281515/pdeuofficial_logo?e=1721260800&v=beta&t=MpEH9bd2lJk_tV8uXa54eA81Ef30h6Qy6z7JsRFIh78",
+       layout="wide",
+       initial_sidebar_state="expanded",
+    )
     st.title("Project Portal")
 
 
